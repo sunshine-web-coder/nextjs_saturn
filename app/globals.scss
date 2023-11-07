@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+.custom_btn {
+  @apply w-full rounded bg-[#00A9A4] p-4 text-[18px] font-normal text-white;
+}
+.custom_container {
+  max-width: 1100px;
+  margin: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+
+  @media screen and (max-width: 767px) {
+    padding-top: 16px;
+  }
+}
+.selected-flag {
+  width: 50px !important;
+  padding-left: 13px !important;
+}
+
+.jjj {
+  display: none !important;
+}

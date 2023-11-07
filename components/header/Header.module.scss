@@ -1,0 +1,38 @@
+.navBar {
+  .m_logo {
+    display: none;
+  }
+  @media screen and (max-width: 850px) {
+    position: fixed;
+    background-color: white;
+    z-index: 9999;
+    width: 500px;
+    right: 0;
+    top: 0;
+    height: 100vh;
+
+    .m_logo {
+      display: block;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    ul {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0;
+      li {
+        width: 100%;
+        a {
+          display: block;
+          width: 100%;
+          padding: 10px;
+          padding-left: 20px;
+        }
+      }
+    }
+  }
+}
